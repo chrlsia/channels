@@ -1,6 +1,6 @@
 package main
 
-// var keyPressChan chan rune
+var keyPressChan chan rune
 
 
 
