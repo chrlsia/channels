@@ -39,7 +39,7 @@ func main() {
 func listenForKeyPress(){
 	//7
 	for{
-		// push the conetens of channel to key
+		// push the contens of channel to key
 		// and display it
 		key:= <-keyPressChan
 		fmt.Println("You pressed ",string(key))
